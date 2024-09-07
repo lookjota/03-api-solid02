@@ -1,0 +1,23 @@
+{
+  "name": "03-api-solid",
+  "version": "1.0.0",
+  "description": "- [ ] Deve ser possivel se cadastrar;\r - [ ] Deve ser possivel se autenticar;\r - [ ] Deve ser possivel obter o perfil de um user logado;\r - [ ] Deve ser possivel obter o numero de check-ins realizados pelo usuario logado;\r - [ ] Deve ser possivel o user obter o seu historico de check-ins;\r - [ ] Deve ser possivel o user buscar academias proximas;\r - [ ] Deve ser possivel o user buscar academias pelo nome;\r - [ ] Deve ser possivel o user realizar check-in em uma academia;\r - [ ] Deve ser possivel validae o check-in de um user;\r - [ ] Deve ser possivel cadastrar uma academia;",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsup": "^8.2.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1"
+  }
+}
